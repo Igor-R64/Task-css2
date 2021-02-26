@@ -1,0 +1,15 @@
+.header {
+    background-color: red;
+}
+.main {
+    background-color: green;
+}
+
+.footer {
+    background-color: indigo;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1600px;
+    background-color: khaki;
+}
