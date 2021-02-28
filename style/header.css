@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    height: 524px;
+    
+}
+.header_bg {
+    margin: 0 auto;
+}
+.header_bg-img-left{
+    float: left;
+    height: 524px;
+    min-width: 143px;
+}
+.header_bg-img-right{
+    float: right;
+    height: 524px;
+    min-width: 142px;
+}
+.header_phone{
+    position: relative;
+    top: 10px;
+}

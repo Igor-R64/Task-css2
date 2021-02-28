@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "color.css";
+@import "typography.css";
+@import "header.css";
+
+
+
+
+.main {
+    background-color: green;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1285px;
+    background-color: khaki;
+}
