@@ -12,6 +12,9 @@
 
 .header_top::after {
     content: "Call us now: 800-567-8888";
+    position: absolute;
+    top: 10px;
+    right: 5px;
     color: white;
 }
 
