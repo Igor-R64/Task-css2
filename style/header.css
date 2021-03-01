@@ -1,22 +1,26 @@
 .header {
     display: flex;
     height: 524px;
-    
+    background: repeat-x url("../img/top_bg.jpg");
 }
+
 .header_bg {
+    height: 524px;
+    width: 1000px;
     margin: 0 auto;
+    background: center no-repeat url("../img/header_bg.jpg");
 }
-.header_bg-img-left{
-    float: left;
-    height: 524px;
-    min-width: 143px;
+
+.header_phone {
+    display: flex;
+    justify-content: flex-end;
+    margin: 17px;
 }
-.header_bg-img-right{
-    float: right;
-    height: 524px;
-    min-width: 142px;
+
+.header_navigation{
+    display: flex;
 }
-.header_phone{
-    position: relative;
-    top: 10px;
+
+.header_navigation-top-list {
+    display: flex;
 }
