@@ -1,5 +1,5 @@
 @import "components/reset.css";
 @import "color.css";
-@import "typography.css";
+@import "common/typography.css";
 @import "components/header.css";
 @import "components/banner.css"

@@ -1,7 +1,45 @@
 .wrapper {
-    width: 525px;
+    width: 1000px;
     margin: 0 auto;
 }
 .header {
     height: 160px;
+}
+
+.header_top {
+    height: 52px;
+}
+
+.header_top::after {
+    content: "Call us now: 800-567-8888";
+}
+
+
+.header_navigation {
+    height: 108px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_navigation-item {
+    display: flex;
+}
+
+.navigation-item {
+    margin: 0 15px;
+    font-family: var(--font-family-navigation);
+    font-size: var(--font-size-navigation);
+}
+
+.wrapper_bg {
+    position: absolute;
+    z-index: -1;
+}
+
+.wrapper_long {
+    position: absolute;
+    z-index: -1;
+    width: -webkit-fill-available;
+    height: 524px;
 }
