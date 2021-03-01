@@ -12,14 +12,19 @@
 
 .header_top::after {
     content: "Call us now: 800-567-8888";
+    color: white;
 }
 
 
 .header_navigation {
     height: 108px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+.header_navigation-img {
+    margin-left: 17px;
 }
 
 .header_navigation-item {
@@ -27,9 +32,22 @@
 }
 
 .navigation-item {
-    margin: 0 15px;
+    margin-right: 38px;
+    font-weight:bold;
     font-family: var(--font-family-navigation);
     font-size: var(--font-size-navigation);
+}
+
+.item {
+    color: black;
+    text-decoration: none;
+}
+
+.item:hover {
+    color: white;
+    background: url(../../img/contact_hover.jpg);
+
+    
 }
 
 .wrapper_bg {
@@ -37,9 +55,18 @@
     z-index: -1;
 }
 
-.wrapper_long {
+.wrapper_long-right {
     position: absolute;
     z-index: -1;
-    width: -webkit-fill-available;
+    right: 0px;
+    width: 50%;
+    height: 524px;
+}
+
+.wrapper_long-left {
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    width: 50%;
     height: 524px;
 }

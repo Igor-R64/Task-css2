@@ -1,3 +1,35 @@
 .banner {
     height: 365px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: var(--font-family-navigation);
+}
+.banner_right {
+    width: 45%;
+}
+
+.banner_heading {
+    font-size: 30px;
+    color: white;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.banner_subtitle {
+    font-size: 25px;
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+.banner_text {
+    font-size: 10px;
+    color: white;
+    margin: 20px 0;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.banner_button {
+    margin: 20px 0;
 }
