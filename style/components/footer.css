@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    height: 121px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.footer_navigation-item{
+    display: flex;
+}
+
+.footer_bg {
+    width: 1000px;
+    height: 121px;
+    position: absolute;
+    z-index: -1;
+}
+
+.footer::before {
+   background-image: url(../../img/footer_bg.jpg);
+   width: 100px;
+   content: " ";
+   left: -16px;
+   top: -6px;
+   position: absolute;
+}

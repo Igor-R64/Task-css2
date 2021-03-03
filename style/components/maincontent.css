@@ -122,5 +122,59 @@
     letter-spacing: 0.2px;
 }
 
+.maincontents_content-subtitle-work-clock {
+    margin-top: 24px;
+}
 
+.maincontents_content-subtitle-work-clock-description {
+    display: flex;
+}
 
+.maincontents_content-subtitle-work-clock-description-text {
+    margin-left: 20px;
+}
+
+.maincontents_content-subtitle-work-clock-description-text-description {
+    padding-top: 14px;
+}
+
+.maincontents_content-subtitle-work-clock-description-text-more {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.maincontents_content-subtitle-work-clock-description-text-txt {
+    font-family: arial;
+    font-weight: 800;
+    font-size: 11px;
+    margin-left: 6px;
+    color: orange;
+}
+
+.maincontents_content-subtitle-work-person-description {
+    display: flex;
+    margin-top: 6px;
+}
+
+.maincontents_content-subtitle-work-person-description-text {
+    margin-left: 20px;
+}
+
+.maincontents_content-subtitle-work-person-description-text-description {
+    padding-top: 14px;
+}
+
+.maincontents_content-subtitle-work-person-description-text-more {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.maincontents_content-subtitle-work-person-description-text-txt {
+    font-family: arial;
+    font-weight: 800;
+    font-size: 11px;
+    margin-left: 6px;
+    color: orange;
+}
