@@ -106,5 +106,21 @@
     z-index: -1;
 }
 
+.content-subtitle-work-h2 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--font-family-navigation);
+    margin-top: 26px;
+}
+
+.maincontents_content-subtitle-work-text-description {
+    width: 642px;
+    margin-top: 30px;
+    font-family: arial;
+    font-size: 13px;
+    line-height: 142%;
+    letter-spacing: 0.2px;
+}
+
 
 
