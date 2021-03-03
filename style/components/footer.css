@@ -19,8 +19,9 @@
 .footer::before {
    background-image: url(../../img/footer_bg.jpg);
    width: 100px;
+   height: 121px;
    content: " ";
-   left: -16px;
-   top: -6px;
-   position: absolute;
+   left: -150px;
+   bottom: 0px;
+   position: relative;
 }
