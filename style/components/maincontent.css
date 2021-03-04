@@ -82,16 +82,18 @@
 }
 
 .maincontents_content-password {
-    width: 253px;
+    position: relative;
+    width: 255px;
     height: 286px;
     margin-top: 30px;
     margin-left: 16px;
-    /* background-color: #f6f6f6; */
+    background-color: #f6f6f6;
     border: 1px solid gray;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .maincontents_content-password-title {
+    position: absolute;
     margin-left: 21px;
     padding-top: 35px;
     font-family: var(--font-family-navigation);
@@ -103,7 +105,7 @@
 
 .password-img {
     position: absolute;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .content-subtitle-work-h2 {
@@ -177,4 +179,67 @@
     font-size: 11px;
     margin-left: 6px;
     color: orange;
+}
+
+.maincontents_content-password-name {
+    position: absolute;
+    padding-top: 78px;
+    margin-left: 35px;
+}
+
+.maincontents_content-password-more-account {
+    position: absolute;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.maincontents_content-password-more-password {
+    position: absolute;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 207px;
+}
+
+.maincontents_content-password-more-account-txt {
+    font-family: arial;
+    font-weight: 800;
+    font-size: 11px;
+    margin-left: 6px;
+    color: orange;
+}
+
+.maincontents_content-password-more-password-txt {
+    font-family: arial;
+    font-weight: 800;
+    font-size: 11px;
+    margin-left: 6px;
+    color: orange;
+}
+
+.maincontents_content-news {
+    position: relative;
+    width: 255px;
+    height: 286px;
+    margin-top: 30px;
+    margin-left: 16px;
+    background-color: #f6f6f6;
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+
+.news-img {
+    position: absolute;
+    margin-top: -15px;
+}
+
+.maincontents_content-news-title {
+    position: absolute;
+}
+
+.maincontents_content-news-title-latest {
+    margin-left: 72px;
+    margin-top: 12px;
 }

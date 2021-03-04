@@ -13,7 +13,9 @@
     <div class="wrapper">
         <img class="wrapper_bg" src="img/header_bg.jpg">
         <header class="header">
-            <div class="header_top"></div>
+            <div class="header_top">
+                <p class="header_top-call">Call us now: 800-567-8888</p>
+            </div>
             <nav class="header_navigation">
                 <img class="header_navigation-img" src="img/logo.jpg">
                 <ul class="header_navigation-item">
@@ -161,13 +163,38 @@
                         <div class="maincontents_content-password-title">
                             <P>USER LOGIN</P> 
                          </div>
+                         <div class="maincontents_content-password-name">
+                            <form action="handler.php">
+                                <p><strong>username*</strong> 
+                                 <input maxlength="25" size="25" name="login"></p>
+                                <p><strong>password*</strong> 
+                                 <input type="password" maxlength="25" size="25" name="password"></p>
+                                <p><input type="submit" value="Login"></p>
+                            </form>
+                         </div>
+                         <div class="maincontents_content-password-more-account">
+                            <div class="maincontents_content-password-more-account-img">
+                                <img src="img/orange_dot.jpg" alt="arrow">
+                            </div>
+                            <div class="maincontents_content-password-more-account-txt">
+                                <p>Create new account</p>
+                            </div>
+                    </div>
+                    <div class="maincontents_content-password-more-password">
+                        <div class="maincontents_content-password-more-password-img">
+                            <img src="img/orange_dot.jpg" alt="arrow">
+                        </div>
+                        <div class="maincontents_content-password-more-password-txt">
+                            <p>Request new password</p>
+                        </div>
+                </div>
                     </div>
                     <div class="maincontents_content-news">
                         <div class="maincontents_content-news-img">
                             <img class="news-img" src="img/event_top.jpg" alt="keys">
                         </div>
                         <div class="maincontents_content-news-title">
-                            <P>latest news</P> 
+                            <P class="maincontents_content-news-title-latest">latest news</P> 
                          </div>
                     </div>
                 </div>
