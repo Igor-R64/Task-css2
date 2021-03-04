@@ -14,9 +14,13 @@
 }
 
 .header_top-call {
-    top: 10px;
-    right: 5px;
+    font-weight: 900;
+    font-size: 13px;
+    word-spacing: -1px;
+    margin-bottom: 2px;
+    margin-right: 24px;
     color: white;
+    font-family: var(--font-family-navigation);
 }
 
 
@@ -33,10 +37,16 @@
 
 .header_navigation-item {
     display: flex;
+    width: 591px;
+    justify-content: flex-start;
+    height: 107px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6px;
 }
 
 .navigation-item {
-    margin-right: 38px;
+    margin: 29px 0;
     font-weight:bold;
     font-family: var(--font-family-navigation);
     font-size: var(--font-size-navigation);
@@ -45,11 +55,13 @@
 .item {
     color: black;
     text-decoration: none;
+    padding: 10px 20px 13px 22px;
 }
 
 .item:hover {
     color: white;
-    background: url(../../img/contact_hover.jpg);
+    background: url(../../img/contact_hover.jpg) no-repeat;
+
 }
 
 .wrapper_bg {
