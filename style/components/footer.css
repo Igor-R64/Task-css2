@@ -26,3 +26,38 @@
     z-index: -1;
     right: 0;
 }
+
+.footer_navigation {
+    margin-left: 40px;
+}
+
+.footer_navigation-item-footer {
+    display: flex;
+}
+
+.navigation-item-footer {
+    font-weight:bold;
+    font-family: var(--font-family-navigation);
+    font-size: var(--font-size-navigation);
+}
+
+.item-footer {
+    color: orange;
+    text-decoration: none;
+}
+
+.item-footer:hover {
+    color: green;
+}
+
+ul li + li:before{
+    content:"|";
+    margin: 0 8px;;
+    color: orange;
+}
+
+
+.footer_navigation-copyright {
+    font-size: 13px;
+    margin-left: 111px;
+}

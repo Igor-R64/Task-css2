@@ -129,10 +129,13 @@
 
 .maincontents_content-subtitle-work-clock {
     margin-top: 24px;
+    font-family: arial;
 }
 
 .maincontents_content-subtitle-work-clock-description {
     display: flex;
+    font-size: 13px;
+    line-height: 142%;
 }
 
 .maincontents_content-subtitle-work-clock-description-text {
@@ -145,7 +148,7 @@
 
 .maincontents_content-subtitle-work-clock-description-text-more {
     display: flex;
-    height: 60px;
+    height: 49px;
     align-items: center;
 }
 
@@ -160,6 +163,8 @@
 .maincontents_content-subtitle-work-person-description {
     display: flex;
     margin-top: 6px;
+    font-size: 13px;
+    line-height: 142%;
 }
 
 .maincontents_content-subtitle-work-person-description-text {
@@ -172,7 +177,7 @@
 
 .maincontents_content-subtitle-work-person-description-text-more {
     display: flex;
-    height: 60px;
+    height: 54px;
     align-items: center;
 }
 
