@@ -189,37 +189,5 @@
     color: orange;
 }
 
-.maincontents_content-password-name {
-    position: absolute;
-    padding-top: 78px;
-    margin-left: 35px;
-}
 
-.maincontents_content-password-more-account {
-    height: 60px;
-    display: flex;
-    align-items: center;
-    margin-top: 180px;
-}
-
-.maincontents_content-password-more-password {
-    display: flex;
-    align-items: center;
-}
-
-.maincontents_content-password-more-account-txt {
-    font-family: arial;
-    font-weight: 800;
-    font-size: 11px;
-    margin-left: 6px;
-    color: orange;
-}
-
-.maincontents_content-password-more-password-txt {
-    font-family: arial;
-    font-weight: 800;
-    font-size: 11px;
-    margin-left: 6px;
-    color: orange;
-}
 
