@@ -5,7 +5,7 @@
     margin-top: 30px;
     margin-left: 16px;
     background-color: #f6f6f6;
-    border: 1px solid gray;
+    border: 1px solid #c6c7cc;
     border-radius: 12px;
 }
 
@@ -24,6 +24,7 @@
     font-size: 29px;
     font-weight: 600;
     letter-spacing: -0.6px;
+    color: var(--color-orange);
 }
 
 .maincontents_content-news-news-top {
@@ -76,5 +77,5 @@
 
 .more {
     text-decoration: none;
-    color: orange;
+    color: var(--color-orange);
 }

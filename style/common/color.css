@@ -1,3 +1,4 @@
-.footer {
-    background-color: indigo;
+:root {
+    --color-content-heading: #9ca820;
+    --color-orange: orange;
 }

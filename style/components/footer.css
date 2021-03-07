@@ -43,18 +43,18 @@
 }
 
 .item-footer {
-    color: orange;
+    color: var(--color-orange);
     text-decoration: none;
 }
 
 .item-footer:hover {
-    color: green;
+    color: var(--color-content-heading);
 }
 
 .footer_navigation ul li + li:before{
     content:"|";
     margin: 0 10px;;
-    color: orange;
+    color: var(--color-orange);
 }
 
 
