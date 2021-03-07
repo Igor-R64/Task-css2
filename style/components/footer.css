@@ -28,7 +28,8 @@
 }
 
 .footer_navigation {
-    margin-left: 40px;
+    margin-left: 38px;
+    margin-bottom: 6px;
 }
 
 .footer_navigation-item-footer {
@@ -50,14 +51,15 @@
     color: green;
 }
 
-ul li + li:before{
+.footer_navigation ul li + li:before{
     content:"|";
-    margin: 0 8px;;
+    margin: 0 10px;;
     color: orange;
 }
 
 
 .footer_navigation-copyright {
     font-size: 13px;
-    margin-left: 111px;
+    margin-left: 94px;
+    margin-bottom: 4px;
 }

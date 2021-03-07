@@ -13,6 +13,7 @@
     font-size: 24px;
     margin-top: 47px;
     font-weight: 600;
+    letter-spacing: 0.12px;
 }
 
 .maincontent_p {
@@ -28,6 +29,7 @@
 
 .maincontents_content-left{
     width: 69%;
+    height: 685px;
     margin-left: 30px;
 }
 .maincontents_content-right {
@@ -42,14 +44,15 @@
     font-size: 30px;
     font-weight: 600;
     font-family: var(--font-family-navigation);
-    padding-top: 32px;
+    padding-top: 31.3px;
 }
 
 .content-heading-p {
+    letter-spacing: 0.1px;
     font-size: 22px;
     font-weight: 600;
     font-family: var(--font-family-navigation);
-    padding-left: 7px;
+    padding-left: 6px;
     padding-top: 37px;
     color: gray;
 }
@@ -57,26 +60,31 @@
 .maincontents_content-heading-text-heading {
     margin-top: 18px;
     font-family: arial;
+    letter-spacing: -0.2px;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
     color: rgb(52, 167, 52);
 }
 .maincontents_content-heading-text-description {
+    margin-left: 1px;
+    letter-spacing: 0.2px;
     width: 642px;
-    margin-top: 14px;
+    margin-top: 15px;
     font-family: arial;
     font-size: 13px;
-    line-height: 142%;
+    line-height: 18px;
 }
 
 .maincontents_content-heading-text-more {
+    margin-top: 3px;
     display: flex;
     height: 48px;
     align-items: center;
 }
 
 .maincontents_content-heading-text-more-txt {
+    letter-spacing: -0.4px;
     font-family: arial;
     font-weight: 800;
     font-size: 11px;
@@ -84,32 +92,7 @@
     color: orange;
 }
 
-.maincontents_content-password {
-    position: relative;
-    width: 255px;
-    height: 286px;
-    margin-top: 30px;
-    margin-left: 16px;
-    background-color: #f6f6f6;
-    border: 1px solid gray;
-    border-radius: 12px;
-}
 
-.maincontents_content-password-title {
-    position: absolute;
-    margin-left: 21px;
-    padding-top: 35px;
-    font-family: var(--font-family-navigation);
-    font-weight: 800;
-    font-size: 21.5px;
-    color: green;
-}
-
-
-.password-img {
-    position: absolute;
-    /* z-index: -1; */
-}
 
 .content-subtitle-work-h2 {
     font-size: 24px;
@@ -124,6 +107,7 @@
     font-family: arial;
     font-size: 13px;
     line-height: 142%;
+    margin-left: 1px;
     letter-spacing: 0.2px;
 }
 
@@ -142,17 +126,38 @@
     margin-left: 20px;
 }
 
+.maincontents_content-subtitle-work-clock-description-text-heading {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+    color: orange;
+}
+
+.maincontents_content-subtitle-work-person-description-text-heading {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+    color: orange;
+}
+
 .maincontents_content-subtitle-work-clock-description-text-description {
-    padding-top: 14px;
+    padding-top: 12px;
+    font-family: arial;
+    font-size: 13px;
+    line-height: 142%;
+    margin-left: 1px;
+    letter-spacing: 0.2px;
 }
 
 .maincontents_content-subtitle-work-clock-description-text-more {
     display: flex;
-    height: 49px;
+    height: 47px;
     align-items: center;
 }
 
 .maincontents_content-subtitle-work-clock-description-text-txt {
+    font-family: arial;
+    letter-spacing: -0.4px;
     font-family: arial;
     font-weight: 800;
     font-size: 11px;
@@ -162,7 +167,7 @@
 
 .maincontents_content-subtitle-work-person-description {
     display: flex;
-    margin-top: 6px;
+    margin-top: 11px;
     font-size: 13px;
     line-height: 142%;
 }
@@ -172,16 +177,23 @@
 }
 
 .maincontents_content-subtitle-work-person-description-text-description {
-    padding-top: 14px;
+    padding-top: 10px;
+    font-family: arial;
+    font-size: 13px;
+    line-height: 142%;
+    margin-left: 1px;
+    letter-spacing: 0.2px;
 }
 
 .maincontents_content-subtitle-work-person-description-text-more {
     display: flex;
-    height: 54px;
+    height: 49px;
     align-items: center;
 }
 
 .maincontents_content-subtitle-work-person-description-text-txt {
+    font-family: arial;
+    letter-spacing: -0.4px;
     font-family: arial;
     font-weight: 800;
     font-size: 11px;
@@ -189,5 +201,8 @@
     color: orange;
 }
 
-
+.read more {
+    text-decoration: none;
+    color: orange;
+}
 

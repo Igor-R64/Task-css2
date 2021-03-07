@@ -20,14 +20,17 @@
 
 .maincontents_content-news-title-latest {
     margin-left: 64px;
-    margin-top: 14px;
+    margin-top: 13px;
     font-size: 29px;
+    font-weight: 600;
+    letter-spacing: -0.6px;
 }
 
 .maincontents_content-news-news-top {
     margin-top: 55px;
     margin-left: 19px;
     display: flex;
+    width: 215px;
 }
 
 .maincontents_content-news-news-tick {
@@ -35,19 +38,28 @@
 }
 
 .maincontents_content-news-news-text {
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 9px;
+    margin-top: 12px;
+    letter-spacing: -0.3px;
+}
+
+.maincontents_content-news-news-text-data {
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .maincontents_content-news-news-text-description {
     margin-top: 11px;
+    font-size: 15px;
+    line-height: 17px;
 }
 
 .maincontents_content-news-news-img-more {
     display: flex;
     align-items: center;
     margin-left: 52px;
-    margin-top: 6px;
+    margin-top: 8px;
+    font-size: 12px;
 }
 
 .img-more {
@@ -59,4 +71,10 @@
     display: flex;
     margin-top: 17px;
     margin-left: 19px;
+    width: 215px;
+}
+
+.more {
+    text-decoration: none;
+    color: orange;
 }
