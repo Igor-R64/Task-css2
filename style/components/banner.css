@@ -41,3 +41,9 @@
     border-radius: 6px;
     background: radial-gradient(rgb(214, 210, 210), #eeebeb);
 }
+
+.banner_button:active {
+    color: orange;
+    border:none;
+    outline: none;
+}
